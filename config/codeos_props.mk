@@ -13,4 +13,5 @@
 # limitations under the License.
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.boot.vendor.overlay.theme=com.google.android.theme.pixel
+    ro.boot.vendor.overlay.theme=com.google.android.theme.pixel \
+    ro.build.selinux=0
