@@ -18,6 +18,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.debug.alloc=0
 
+#Themes
+PRODUCT_PACKAGES += \
+    PixelTheme \
+    Stock
+
 # Backup tool
 PRODUCT_COPY_FILES += \
     vendor/codeos/prebuilt/common/bin/backuptool.sh:install/bin/backuptool.sh \
