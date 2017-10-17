@@ -163,6 +163,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     media.sf.omx-plugin=libffmpeg_omx.so \
     media.sf.extractor-plugin=libffmpeg_extractor.so
 
+# Charging sounds
+PRODUCT_COPY_FILES += \
+    vendor/codeos/google/effects/BatteryPlugged.ogg:system/media/audio/ui/BatteryPlugged.ogg \
+    vendor/codeos/google/effects/BatteryPlugged_48k.ogg:system/media/audio/ui/BatteryPlugged_48k.ogg
+
 # Storage manager
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.storage_manager.enabled=true
