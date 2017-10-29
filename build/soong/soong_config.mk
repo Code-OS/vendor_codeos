@@ -1,4 +1,4 @@
-gzosp_soong:
+codeos_soong:
 	$(hide) mkdir -p $(dir $@)
 	$(hide) (\
 	echo '{'; \
