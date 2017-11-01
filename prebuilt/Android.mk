@@ -56,3 +56,43 @@ LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
+
+#ViaBrowser
+include $(CLEAR_VARS)
+LOCAL_MODULE := ViaBrowser
+LOCAL_SRC_FILES := prebuilt/common/app/ViaBrowser.apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_TAGS := optional
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_DEX_PREOPT := false
+include $(BUILD_PREBUILT)
+
+#Phonograph
+include $(CLEAR_VARS)
+LOCAL_MODULE := Phonograph
+LOCAL_SRC_FILES := prebuilt/common/app/Phonograph.apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_TAGS := optional
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_DEX_PREOPT := false
+include $(BUILD_PREBUILT)
+
+#GooglePixelLauncher
+include $(CLEAR_VARS)
+LOCAL_MODULE := GooglePixelLauncher
+LOCAL_SRC_FILES := prebuilt/common/app/GooglePixelLauncher.apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_TAGS := optional
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_DEX_PREOPT := false
+include $(BUILD_PREBUILT)
+
+#LawnChairLauncher
+include $(CLEAR_VARS)
+LOCAL_MODULE := LawnChairLauncher
+LOCAL_SRC_FILES := prebuilt/common/app/LawnChairLauncher.apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_TAGS := optional
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_DEX_PREOPT := false
+include $(BUILD_PREBUILT)

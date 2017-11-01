@@ -100,7 +100,12 @@ PRODUCT_PACKAGES += \
 #    Turbo \
 #    GZRoms \
 #    Nova \
-#    NovaGoogleCompanion
+#    NovaGoogleCompanion \
+    AdAway \
+    GooglePixelLauncher \
+    LawnChairLauncher \
+    Phonograph \
+    ViaBrowser
 
 # Extra tools
 PRODUCT_PACKAGES += \
