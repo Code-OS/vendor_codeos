@@ -84,7 +84,7 @@ function codeosremote()
 
     project="${proj//\//_}"
 
-    git remote add codeos "git@github.com:CODEOS/$pfx$project"
+    git remote add codeos "git@github.com:Code-OS/$pfx$project"
     echo "Remote 'codeos' created"
 }
 
@@ -167,7 +167,7 @@ function codeos_push()
         proj="android_$proj"
     fi
 
-    git $path_opt push "ssh://${ssh_name}/CODEOS/$proj" "HEAD:refs/for/$branch"
+    git $path_opt push "ssh://${ssh_name}/Code-OS/$proj" "HEAD:refs/for/$branch"
 }
 
 

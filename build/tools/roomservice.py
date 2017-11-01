@@ -45,8 +45,8 @@ default_manifest = ".repo/manifests/codeos_default.xml"
 custom_local_manifest = ".repo/local_manifests/codeos_manifest.xml"
 custom_default_revision = "8.0"
 custom_dependencies = "codeos.dependencies"
-org_manifest = "CODEOS-Devices"  # leave empty if org is provided in manifest
-org_display = "CODEOS-Devices"  # needed for displaying
+org_manifest = "Code-OS-Devices"  # leave empty if org is provided in manifest
+org_display = "Code-OS-Devices"  # needed for displaying
 
 github_auth = None
 
