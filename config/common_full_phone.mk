@@ -1,4 +1,5 @@
 # Inherit common stuff
+$(call inherit-product, vendor/codeos/config/caf_fw.mk)
 $(call inherit-product, vendor/codeos/config/common.mk)
 $(call inherit-product, vendor/codeos/config/common_apn.mk)
 
