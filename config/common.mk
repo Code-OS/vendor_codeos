@@ -95,7 +95,8 @@ PRODUCT_PACKAGES += \
     GooglePixelLauncher \
     LawnChairLauncher \
     Phonograph \
-    ViaBrowser
+    Jelly 
+#    ViaBrowser
 #    WolvesDen \
 #    ThemeInterfacer \
 #    Eleven \
