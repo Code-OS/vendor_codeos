@@ -90,7 +90,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Calculator \
     LatinIME \
-    BluetoothExt
+    BluetoothExt \
+    AdAway \
+    GooglePixelLauncher \
+    LawnChairLauncher \
+    Phonograph \
+    ViaBrowser
 #    WolvesDen \
 #    ThemeInterfacer \
 #    Eleven \
@@ -101,11 +106,7 @@ PRODUCT_PACKAGES += \
 #    GZRoms \
 #    Nova \
 #    NovaGoogleCompanion \
-    AdAway \
-    GooglePixelLauncher \
-    LawnChairLauncher \
-    Phonograph \
-    ViaBrowser
+   
 
 # Extra tools
 PRODUCT_PACKAGES += \
