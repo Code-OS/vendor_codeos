@@ -94,20 +94,7 @@ PRODUCT_PACKAGES += \
     AdAway \
     GooglePixelLauncher \
     LawnChairLauncher \
-    Phonograph \
-    Jelly 
-#    ViaBrowser
-#    WolvesDen \
-#    ThemeInterfacer \
-#    Eleven \
-#    OmniSwitch \
-#    OmniJaws \
-#    OmniStyle \
-#    Turbo \
-#    GZRoms \
-#    Nova \
-#    NovaGoogleCompanion \
-   
+    Phonograph 
 
 # Extra tools
 PRODUCT_PACKAGES += \
