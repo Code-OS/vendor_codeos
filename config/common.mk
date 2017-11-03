@@ -178,8 +178,8 @@ PRODUCT_COPY_FILES += vendor/codeos/prebuilt/common/bootanimation/bootanimation.
 # Versioning System
 # codeos first version.
 PRODUCT_VERSION_MAJOR = 8.0
-PRODUCT_VERSION_MINOR = ALPHA
-PRODUCT_VERSION_MAINTENANCE = 1.0
+PRODUCT_VERSION_MINOR = BETA
+PRODUCT_VERSION_MAINTENANCE = 2.0
 CODEOS_POSTFIX := -$(shell date +"%Y%m%d-%H%M")
 ifdef CODEOS_BUILD_EXTRA
     CODEOS_POSTFIX := -$(CODEOS_BUILD_EXTRA)
