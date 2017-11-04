@@ -51,7 +51,7 @@ PRODUCT_COPY_FILES += \
 
 # Fix Dialer
 PRODUCT_COPY_FILES +=  \
-    vendor/aosp/prebuilt/common/etc/sysconfig/dialer_experience.xml:system/etc/sysconfig/dialer_experience.xml
+    vendor/codeos/prebuilt/common/etc/sysconfig/dialer_experience.xml:system/etc/sysconfig/dialer_experience.xml
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
