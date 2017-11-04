@@ -116,6 +116,11 @@ PRODUCT_PACKAGES += \
     ntfsfix \
     ntfs-3g
 
+# Bring in camera effects
+PRODUCT_COPY_FILES +=  \
+    vendor/codeos/prebuilt/common/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
+    vendor/codeos/prebuilt/common/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
+
 # MusicFX advanced effects
 #ifneq ($(TARGET_NO_DSPMANAGER), true)
 #PRODUCT_PACKAGES += \
