@@ -103,7 +103,7 @@ PRODUCT_PACKAGES += \
     AdAway \
     GooglePixelLauncher \
     LawnChairLauncher \
-    Phonograph 
+    Phonograph
 
 # Extra tools
 PRODUCT_PACKAGES += \
