@@ -14,4 +14,5 @@
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.boot.vendor.overlay.theme=com.google.android.theme.pixel \
-    ro.build.selinux=0
+    ro.build.selinux=0 \
+    persist.sys.disable_rescue=true
