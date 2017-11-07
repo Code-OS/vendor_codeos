@@ -97,7 +97,10 @@ PRODUCT_PACKAGES += \
     LatinIME \
     BluetoothExt \
     Jelly \
-    Lawnchair
+    Lawnchair \
+    GooglePixelLauncher \
+    Phonograph \
+    Turbo
 
 # Extra tools
 PRODUCT_PACKAGES += \

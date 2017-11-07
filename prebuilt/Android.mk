@@ -21,7 +21,17 @@ LOCAL_PATH := $(call my-dir)
 #GooglePixelLauncher
 include $(CLEAR_VARS)
 LOCAL_MODULE := GooglePixelLauncher
-LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
+LOCAL_SRC_FILES := common/app/GooglePixelLauncher.apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_TAGS := optional
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_DEX_PREOPT := false
+include $(BUILD_PREBUILT)
+
+#Lawnchair
+include $(CLEAR_VARS)
+LOCAL_MODULE := Lawnchair
+LOCAL_SRC_FILES := common/app/Lawnchair.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_CERTIFICATE := PRESIGNED
@@ -31,7 +41,7 @@ include $(BUILD_PREBUILT)
 #Phonograph
 include $(CLEAR_VARS)
 LOCAL_MODULE := Phonograph
-LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
+LOCAL_SRC_FILES := common/app/Phonograph.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_CERTIFICATE := PRESIGNED
@@ -41,7 +51,7 @@ include $(BUILD_PREBUILT)
 #Turbo
 include $(CLEAR_VARS)
 LOCAL_MODULE := Turbo
-LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
+LOCAL_SRC_FILES := common/app/Turbo.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_CERTIFICATE := platform
