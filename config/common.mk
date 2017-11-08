@@ -100,7 +100,8 @@ PRODUCT_PACKAGES += \
     Lawnchair \
     GooglePixelLauncher \
     Phonograph \
-    Turbo
+    Turbo \
+    WallpaperPickerGoogle
 
 # Extra tools
 PRODUCT_PACKAGES += \
