@@ -101,7 +101,9 @@ PRODUCT_PACKAGES += \
     GooglePixelLauncher \
     Phonograph \
     Turbo \
-    WallpaperPickerGoogle
+    WallpaperPickerGoogle \
+    OmniSwitch \
+    OmniJaws 
 
 # Extra tools
 PRODUCT_PACKAGES += \
